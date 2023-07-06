@@ -1,0 +1,98 @@
+@media (max-width: 576px){
+    .header__content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .header__content_right_btn{
+        margin: 0 auto;
+    }
+
+    .nav{
+        margin: 15px 16px;
+    }
+
+    .header__content{
+        margin: 35px auto 0;
+    }
+
+    .header__content_right{
+        justify-content: center;
+        align-items: center;
+        order: -1;
+    }
+
+    .header__content_right_title{
+        color: var(--black, #12141D);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -1px;
+    }
+
+    .header__content_right_subtitle_txt{
+        color: var(--black, #12141D);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        max-width: 343px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header__content_photo{
+        display: none;
+    }
+
+    .header__content_photo_mb{
+        width: 100%;
+    }
+    
+
+    .header__bg,
+    .header__link {
+        display: none;
+    }
+
+    .problems__block_cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .problems_cards,
+    .problems_cards_txt{
+        display: flex;
+        align-items: center;
+    }
+
+    .website{
+        flex-direction: column;
+    }
+
+    .secure__bg{
+        display: none;
+    }
+
+    .secure__content{
+        flex-direction: column;
+    }
+
+    .businesses__content{
+        height: 798px;
+    }
+
+    .pages__cards{
+        flex-direction: column;
+    }
+}
